@@ -63,7 +63,7 @@ font-weight: 800;
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .card{
 
@@ -103,4 +103,135 @@ padding:100px 0px 0px 70px;
 }
 .box-desc {
 text-align: center;
+}
+
+/*style icon section */
+.icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section {
+    /* background: rgba(39, 39, 39, 0.05); */
+    padding:50px;
+}
+.icon-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.icon-card {
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 95px;
+    text-align: center;
+}
+.icon {
+    width:50px;
+}
+
+/*style Hot Deal Section*/ 
+.hot-deal-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    padding:0px 200px;
+}
+.hot-deal-text {
+    text-align: center;
+    padding:20px 20px;
+}
+.hot-deal-text-title{
+    font-weight: bold;
+}
+.hot-deal-text-desc {
+    padding: 10px 10px;
+}
+.hot-deal-image {
+    width:250px;
+}
+
+/* Style Instagram section*/
+
+.insta-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insta-title {
+    text-align: center;
+    font-weight: 800;
+    padding-top:100px;
+    font-size: 30px;
+
+}
+.insta-desc {
+    text-align: center;
+    padding:20px 0px;
+}
+.insta-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    /* padding-bottom: 100px; */
+}
+.photo {
+    width:283px;
+}
+
+/*style subscribe section*/
+.subscribe-section {
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 70px 180px;
+}
+.subscribe-details {
+    padding: 100px;
+    text-align: center;
+}
+.details-title {
+
+}
+.details-desc {
+    
+}
+.details-input {
+    border: none;
+    padding:10px 200px 10px 20px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+/*style footer section */
+.footer-section {
+    background: #111010;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:80px 50px;
+    
+}
+.footer-child {
+    color:white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-child-desc {
+    padding:10px 10px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 13px;
+
+}
+.footer-child-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+
 }
