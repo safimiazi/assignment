@@ -195,10 +195,17 @@ text-align: center;
     text-align: center;
 }
 .details-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
 
 }
 .details-desc {
-    
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0px;
+
 }
 .details-input {
     border: none;
@@ -221,7 +228,9 @@ padding-bottom: 10px;
 }
 .gallery-pera {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
 
 }
 .gallery-photos {
