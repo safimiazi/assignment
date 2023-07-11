@@ -207,6 +207,40 @@ text-align: center;
     margin-right: 5px;
 }
 
+
+.gallery-h4{
+text-align: center;
+padding-bottom: 10px;
+}
+.gallery-h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+.gallery-pera {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.gallery-photos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 50px;
+
+}
+.gallery-photo {
+    width:350px;
+    border: 2px solid #E55473;
+    border-radius: 8px;
+    box-shadow: 7px 6px 14px 1px rgba(65,65,65,0.53);
+    
+}
+
+
+
 /*style footer section */
 .footer-section {
     background: #111010;
